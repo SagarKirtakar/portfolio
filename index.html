@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Full Stack Java Developer</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- particle js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <!-- typed js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- font-awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar section -->
+    <nav class="navbar">
+      <div class="logo">Sagar Kirtakar</div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="smoothscroll">About</a></li>
+        <li><a href="#experience" class="smoothscroll">Experience</a></li>
+        <li><a href="#skills" class="smoothscroll">Skills</a></li>
+        <li><a href="#education" class="smoothscroll">Education</a></li>
+        <li><a href="#projects" class="smoothscroll">Projects</a></li>
+        <li><a href="#contact" class="smoothscroll">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- introduction section -->
+    <section class="intro" id="intro">
+      <div id="particles-js"></div>
+      <div class="intro-content">
+        <div class="intro-image">
+          <img src="Images/3_d.jpg" alt="developer" />
+        </div>
+        <div class="intro-text">
+          <h1><span id="typed"></span></h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate Full Stack Java Developer creating scalable and modern
+        web applications. I love building applications that are efficient,
+        reliable, and user-focused.
+      </p>
+    </section>
+
+    <!--experience section  -->
+    <section class="timeline-section" id="experience">
+      <h2>Work Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Full Stack Java Developer Intern - Delfine India Technology</h3>
+          <span>Dec 2025 - May 2026</span>
+          <p>
+            Developed full-stack web applications using Java, Spring Boot, REST
+            APIs, HTML, CSS, JavaScript, Bootstrap, MySQL, Git, and Postman
+            while following the MVC architecture.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- skill section -->
+    <section class="skills-section" id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <!-- Frontend -->
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JAVASCRIPT</li>
+        <li>Bootstrap</li>
+        <li>TAILWIND CSS</li>
+        <li>Thymeleaf</li>
+
+        <!-- Backend -->
+        <li>Core Java</li>
+        <li>OOPs</li>
+        <li>SQL</li>
+        <li>Servlets</li>
+        <li>JSP</li>
+        <li>RESTful APIs</li>
+        <li>Hibernate</li>
+        <li>JDBC</li>
+        <li>Spring Boot</li>
+        <li>Spring Framework</li>
+        <li>Spring MVC</li>
+        <li>Spring Data JPA</li>
+
+        <!-- Tools & Version Control -->
+        <li>MySQL</li>
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>Postman API</li>
+        <li>Maven</li>
+        <li>Docker</li>
+        <li>IntelliJ IDEA</li>
+        <li>Eclipse IDE</li>
+        <li>VS Code</li>
+
+        <!-- Deployment -->
+        <li>Vercel</li>
+        <li>Render</li>
+
+        <!-- Others -->
+        <li>Agile Methodology</li>
+        <li>SDLC</li>
+        <li>SCRUM</li>
+        <li>CI/CD</li>
+        <li>SOLID Principles</li>
+        <li>Linux Fundamentals</li>
+      </ul>
+    </section>
+
+    <!--  eduaction section -->
+    <section class="timeline-section" id="education">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>
+            B.Tech - Shri Shankarprasad Agnihotri College Of Engineering, Wardha
+          </h3>
+          <span>2018 - 2022</span>
+          <p>
+            Major in Computer Science. Built strong foundation in data
+            structures, algorithms, and software engineering. GPA: 6.87
+          </p>
+        </div>
+        <div class="timeline-item">
+          <h3>Diploma - Dr. Panjabrao Deshmukh Rural Polytechnic, Amravati</h3>
+          <span>2022</span>
+          <p>
+            Completed with 69.26%, stream: Computer Science and Engineering.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <h3>10th - CBSE</h3>
+          <span>2016</span>
+          <p>
+            Completed with 66.60%, developed interest in coding and computers.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- project section -->
+    <section class="projects-section" id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Cricket Game</h3>
+        <p>
+          A simple and interactive Cricket Game built using HTML, CSS, and
+          JavaScript.
+        </p>
+        <div class="project-buttons">
+          <a href="#" target="_blank" class="btn-live">Live</a>
+          <a
+            href="https://github.com/SagarKirtakar/Cricket-Game.git"
+            target="_blank"
+            class="btn-code"
+            >Code</a
+          >
+        </div>
+      </div>
+      <div class="project">
+        <h3>Amazon Clone</h3>
+        <p>A responsive Amazon homepage clone built using HTML and CSS.</p>
+        <div class="project-buttons">
+          <a href="#" target="_blank" class="btn-live">Live</a>
+          <a
+            href="https://github.com/SagarKirtakar/Amazon-Clone.git"
+            target="_blank"
+            class="btn-code"
+            >Code</a
+          >
+        </div>
+      </div>
+      <div class="project">
+        <h3>Myntra Clone</h3>
+        <p>A responsive Myntra homepage clone built using HTML and CSS.</p>
+        <div class="project-buttons">
+          <a href="#" target="_blank" class="btn-live">Live</a>
+          <a
+            href="https://github.com/SagarKirtakar/Myntra-Clone.git"
+            target="_blank"
+            class="btn-code"
+            >Code</a
+          >
+        </div>
+      </div>
+      <div class="project">
+        <h3>Dr. BR Ambedkar Tribute Page</h3>
+        <p>
+          A responsive tribute page dedicated to Dr. B. R. Ambedkar, built using
+          HTML and CSS.
+        </p>
+        <div class="project-buttons">
+          <a href="#" target="_blank" class="btn-live">Live</a>
+          <a
+            href="https://github.com/SagarKirtakar/Dr-BR-Ambedkar-Tribute-Page.git"
+            target="_blank"
+            class="btn-code"
+            >Code</a
+          >
+        </div>
+      </div>
+      <div class="project">
+        <h3>Dr. APJ Abdul Kalam Tribute Page</h3>
+        <p>
+          A responsive tribute page dedicated to Dr. A. P. J. Abdul Kalam, built
+          using HTML and CSS.
+        </p>
+        <div class="project-buttons">
+          <a href="#" target="_blank" class="btn-live">Live</a>
+          <a
+            href="https://github.com/SagarKirtakar/Dr-APJ-Abdul-Kalam-Tribute-Page.git"
+            target="_blank"
+            class="btn-code"
+            >Code</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact-section" id="contact">
+      <h2>Contact Me</h2>
+      <p>Have a project in mind or want to say hello? Fill the form below!</p>
+      <form>
+        <div class="input-group">
+          <input type="text" placeholder="Your Name" required />
+        </div>
+        <div class="input-group">
+          <input type="email" placeholder="Your Email" required />
+        </div>
+        <div class="input-group">
+          <textarea
+            type="text"
+            placeholder="Your Message"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+      <div class="socials">
+        <a href="">
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a href="">
+          <i class="fas fa-code"></i>
+        </a>
+
+        <a href="">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+      <p class="copyright">&copy;Sagar Kirtakar</p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
